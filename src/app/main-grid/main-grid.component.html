@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarNav" style="font-size:x-large;">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Estoque</a>
+          <a class="nav-link active" aria-current="page" href="#">Celulares</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pedidos</a>
@@ -20,3 +20,9 @@
     </div>
   </div>
 </nav>
+<body>
+  <gui-grid [source]="source"
+            [columns]="columns"
+            [loading]="loading">
+  </gui-grid>
+</body>
